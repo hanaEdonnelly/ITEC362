@@ -1,0 +1,251 @@
+/*NOTE TO PROFESSOR DALTON
+
+    I genuinely wanted you to know that this was the only part of this entire project that was copied and pasted.
+    I truly had no idea how to import these fonts, but I wanted my website to match the UofSC fonts, and did not 
+    want to pay $50 for a lisence. Everything else has been hand-written, with color and theming inspiration coming
+    from the UofSC website.*/
+@font-face {
+    font-family:'Berlingske Sans';
+    src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSans-Md.woff2') format('woff2'),
+            url('https://sc.edu/_global_resources/fonts/BerlingskeSans-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'Berlingske Sans';
+    src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSans-XBd.woff2') format('woff2'),
+            url('https://sc.edu/_global_resources/fonts/BerlingskeSans-XBd.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'Berlingske Sans Extracondensed';
+    src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSansXCn-XBd.woff2') format('woff2'),
+            url('https://sc.edu/_global_resources/fonts/BerlingskeSansXCn-XBd.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'Berlingske Serif';
+    src:    url('https://sc.edu/_global_resources/fonts/BerlingskeSerif-Bd.woff2') format('woff2'),
+            url('https://sc.edu/_global_resources/fonts/BerlingskeSerif-Bd.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+/*Make body/content fill up entire window*/
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+h3 {
+    font-family: "Berlingske Sans",Arial,sans-serif;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+p a {
+    color:#73000A;
+}
+
+p a:visited {
+    color: #974c5e;
+}
+button {
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+
+table td{
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+}
+
+table th {
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+    text-transform: uppercase;
+    font-size: 18pt;
+}
+
+table caption {
+    font-family: "Berlingske Sans", "Arial", sans-serif;;
+}
+/*Nav bar items--------------------------------------------*/
+/*Nav bar logo*/
+#logo-top {
+    background-color: #73000A;
+}
+
+/*H2 in nav bar ("South Carolina" black banner)*/
+#h2-top {
+    background-color: black;
+    color:white;
+    padding-left: 12px;
+}
+
+/*ID for container containing the nav links*/
+#nav {
+    width:100%;
+    background-color: #363636;
+    color: white;
+    display:flex;
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+    text-transform: uppercase;
+    font-size: 16pt;
+}
+
+header ul {
+    width: 100%;
+    list-style:none;
+    text-align: center;
+    padding: 0;
+    display:flex;
+    flex-wrap:wrap;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+header ul li {
+    flex-grow: 1;
+    flex-basis: 33%;
+    display: inline-block;
+    padding: 0;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display:inline-block;
+}
+
+header ul li a:hover {
+    color:white;
+    background-color: red;
+}
+
+header ul li a:active {
+    color:white;
+    background-color: red;
+}
+/*---------------------------------------------------------*/
+
+/*Img on home page*/
+#img-home {
+    margin-top: 20px;
+}
+
+/*Page paragraph title*/
+#body-title {
+    text-align: center;
+    color: #73000A;
+    font-weight: bold;
+}
+
+/*Contains images and .text-contanier*/
+.body-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+/*Container for content on each page*/
+.text-container {
+    width: 88%;
+    margin:auto;
+}
+
+.left-sidebar {
+    width: 32%;
+   float: left;
+   padding-right: 5px;
+   padding-bottom: 10px;
+}
+
+/*Non-sidebar text area*/
+.main {
+    width: 65%;
+    float: right;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+}
+
+/*Footer styling--------------------------------------------*/
+footer {
+    clear:both;
+    width: 100%;
+    margin: auto;
+    background-color: #73000A;
+    color: white;
+}
+
+#foot-left {
+    text-align: center;
+    float:left;
+    width:  60%;
+    padding-top: 12px;
+}
+
+#foot-icons {
+    margin: auto;
+    display: flex;
+    width: 40%;
+}
+
+#foot-icons ul {
+    width: 100%;
+    list-style:none;
+    text-align: center;
+    padding: 0px 2px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#foot-icons ul li {
+    flex-grow: 1;
+    flex-basis: 33%;
+    display: inline-block;
+    padding: 0;
+}
+
+#foot-icons ul img:hover {
+    cursor: pointer;
+}
+
+#foot-icons img {
+    width: 35px;
+    height: 35px;
+}
+/*---------------------------------------------------------*/

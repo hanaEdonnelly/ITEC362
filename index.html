@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>South Carolina Honors College</title>
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+        <style type="text/css">
+            button {
+                color: white;
+                background-color: #73000A;
+                border:1px #73000A solid;
+                padding: 10px;
+            }
+            button:hover {
+                background-color: white;
+                color: #73000A;
+                border: 1px #73000A solid;
+                cursor: pointer;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+            video {
+                display: block;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <header>
+            <div id="logo-top">
+                <img src="imgs/usc_logo.svg" alt="Garnet and black logo of the University of South Carolina" width="300">
+            </div>
+            <div id="h2-top">
+                <h2>South Carolina Honors College</h2> 
+            </div>
+            <!--Navigation-->
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="apply.html">APPLY</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="body-container">
+            <!--Photo-->
+            <section id="img-home">
+                <img src="imgs/students.jpg" alt="Four students sitting at a table collaborating." style="width:100%;">
+            </section>
+            <h1 id="body-title">The #1 Honors College in South Carolina</h1>
+            <h3 style="text-align: center;">Applications now open for 2023. Do you have what it takes?</h3>
+            <div class="center">
+                <button type="button" onclick="location.href='apply.html'" style="width: 300px; font-size: 14pt;">Apply now</button>
+            </div>
+
+            <div class="text-container">
+                <!--Left-side sidebar-->
+                <section class="left-sidebar">
+                    <aside>
+                        <!-- Article 1 -->
+                        <h3>Quick links</h3>
+                        <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                        <div class="center">
+                            <button type="button">See More</button>
+                        </div>
+                        <!-- Article 2-->
+                        <h3>Advising</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="center">
+                            <button type="button" onclick="location.href='courses.html'">See More</button>
+                        </div>
+                    </aside>
+                </section>
+
+                <!--Main body-->
+                <section class="main">
+                    <!-- Article 1 -->
+                    <h2>
+                        Latest news
+                    </h2>
+                    <h3>New Cybersecurity program</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <!-- Video -->
+                    <h3>Alumni Meetup in Atlanta</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <video controls>
+                        <source src="vids/honors-video.mp4">
+                        Your browser does not support videos.
+                    </video>
+                </section>
+            </div> <!-- .text-container -->
+        </div> <!-- .body-container -->
+
+        <section>
+            <footer>
+                <div id="foot-left">
+                    <p>&copy;South Carolina Honors College 2022</p>
+                </div>
+                <div id="foot-icons">
+                    <ul>
+                        <li><img src="imgs/facebook.png" alt="Facebook"></li>
+                        <li><img src="imgs/instagram.png" alt="Instagram"></li>
+                        <li><img src="imgs/linkedin.png" alt="LinkedIn"></li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+    </body>
+</html>
