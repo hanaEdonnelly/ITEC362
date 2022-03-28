@@ -1,40 +1,3 @@
-/*NOTE TO PROFESSOR DALTON
-
-    I genuinely wanted you to know that this was the only part of this entire project that was copied and pasted.
-    I truly had no idea how to import these fonts, but I wanted my website to match the UofSC fonts, and did not 
-    want to pay $50 for a lisence. Everything else has been hand-written, with color and theming inspiration coming
-    from the UofSC website.*/
-@font-face {
-    font-family:'Berlingske Sans';
-    src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSans-Md.woff2') format('woff2'),
-            url('https://sc.edu/_global_resources/fonts/BerlingskeSans-Md.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family:'Berlingske Sans';
-    src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSans-XBd.woff2') format('woff2'),
-            url('https://sc.edu/_global_resources/fonts/BerlingskeSans-XBd.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family:'Berlingske Sans Extracondensed';
-    src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSansXCn-XBd.woff2') format('woff2'),
-            url('https://sc.edu/_global_resources/fonts/BerlingskeSansXCn-XBd.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family:'Berlingske Serif';
-    src:    url('https://sc.edu/_global_resources/fonts/BerlingskeSerif-Bd.woff2') format('woff2'),
-            url('https://sc.edu/_global_resources/fonts/BerlingskeSerif-Bd.woff') format('woff');
-    font-weight: 700;
-    font-display: swap;
-}
 /*Make body/content fill up entire window*/
 body {
     height: 100%;
@@ -249,3 +212,40 @@ footer {
     height: 35px;
 }
 /*---------------------------------------------------------*/
+/*NOTE TO PROFESSOR DALTON
+
+    I genuinely wanted you to know that this was the only part of this entire project that was copied and pasted.
+    I truly had no idea how to import these fonts, but I wanted my website to match the UofSC fonts, and did not 
+    want to pay $50 for a lisence. Everything else has been hand-written, with color and theming inspiration coming
+    from the UofSC website.*/
+    @font-face {
+        font-family:'Berlingske Sans';
+        src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSans-Md.woff2') format('woff2'),
+                url('https://sc.edu/_global_resources/fonts/BerlingskeSans-Md.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family:'Berlingske Sans';
+        src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSans-XBd.woff2') format('woff2'),
+                url('https://sc.edu/_global_resources/fonts/BerlingskeSans-XBd.woff') format('woff');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family:'Berlingske Sans Extracondensed';
+        src:	url('https://sc.edu/_global_resources/fonts/BerlingskeSansXCn-XBd.woff2') format('woff2'),
+                url('https://sc.edu/_global_resources/fonts/BerlingskeSansXCn-XBd.woff') format('woff');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family:'Berlingske Serif';
+        src:    url('https://sc.edu/_global_resources/fonts/BerlingskeSerif-Bd.woff2') format('woff2'),
+                url('https://sc.edu/_global_resources/fonts/BerlingskeSerif-Bd.woff') format('woff');
+        font-weight: 700;
+        font-display: swap;
+    }
