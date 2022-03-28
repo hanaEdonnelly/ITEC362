@@ -32,6 +32,12 @@ p {
     line-height: 1.8;
 }
 
+.proj-item ul li {
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
 p a {
     color:#73000A;
 }
@@ -95,7 +101,7 @@ header ul {
 
 header ul li {
     flex-grow: 1;
-    flex-basis: 33%;
+    flex-basis: 25%;
     display: inline-block;
     padding: 0;
 }
@@ -164,6 +170,15 @@ header ul li a:active {
     width: 100%;
     align-items: center;
 }
+
+#proj-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 
 /*Footer styling--------------------------------------------*/
 footer {
