@@ -284,6 +284,7 @@ footer {
     }
 
     textarea {
-        width: 89%;
+        width: 87%;
+        margin: 0 auto;
     }
 }
