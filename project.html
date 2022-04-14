@@ -4,13 +4,14 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>South Carolina Honors College</title>
         <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
         <style>
             table {
                 margin: auto;
                 width: 70%;
+                padding-bottom: 30px;
             }
             th {
                 background-color: #73000A;
@@ -48,6 +49,16 @@
             td a:visited {
                 color: #363636;
             }
+            
+            /*Move footer if reaches certain height, content doesn't fill whole page*/
+            @media only screen and (min-height:845px) {
+                footer {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+            
         </style>
     </head>
 
@@ -65,8 +76,8 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="courses.html">COURSES</a></li>
                     <li><a href="apply.html">APPLY</a></li>
-                    <li><a class="active-nav" href="project.html">Project</a></li>
-                    <li><a href="survey.html">Survey</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a class="active-nav" href="project.html">ABOUT</a></li>
                 </ul>
             </div>
         </header>
@@ -114,7 +125,6 @@
                     <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd5rOSRn11IcB0Ik60xJuRuw9ZmRGpnkZ0WuAW4kF3gAtEoLw/viewform?usp=sf_link">Usability Survey</a></td>
                 </tr>
             </table>   
-        <section>
             <footer>
                 <div id="foot-left">
                     <p>&copy;Hana Donnelly 2022</p>
@@ -127,6 +137,6 @@
                     </ul>
                 </div>
             </footer>
-        </section>
+        <script src="stickynav.js"></script>
     </body>
 </html>
