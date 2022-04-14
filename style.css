@@ -124,7 +124,7 @@ table caption {
 }
 
 #nav ul {
-    width: 100vw;
+    width: 100%;
     list-style:none;
     text-align: center;
     padding: 0;
@@ -214,7 +214,7 @@ table caption {
 .sticky {
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .sticky + .content {
